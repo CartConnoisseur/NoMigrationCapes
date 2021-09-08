@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nomigrationcapes",
+  "version": "${version}",
+  "name": "NoMigrationCapes",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nomigrationcapes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.giantfroje.nomigrationcapes.NoMigrationCapes"
+    ]
+  },
+  "mixins": [
+    "nomigrationcapes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
