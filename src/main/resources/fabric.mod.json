@@ -2,10 +2,16 @@
   "schemaVersion": 1,
   "id": "nomigrationcapes",
   "version": "${version}",
-  "name": "NoMigrationCapes",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "name": "No Migration Capes",
+  "description": "A Minecraft mod that removes Migration capes from the game",
+  "authors": [
+    "calvinlarimore"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/nomigrationcapes",
+    "sources": "https://github.com/calvinlarimore/NoMigrationCapes",
+    "issues": "https://github.com/calvinlarimore/NoMigrationCapes/issues"
+  },
   "license": "MIT",
   "icon": "assets/nomigrationcapes/icon.png",
   "environment": "*",
